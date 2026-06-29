@@ -42,4 +42,4 @@ jobs:
         with:
           name: dist-files
       - name: Output build artifacts
-        run: ls -al dist
+        run: ls -ltrha
